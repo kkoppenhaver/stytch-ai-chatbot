@@ -44,16 +44,14 @@ Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_
 
 ### Gerenate env file, install dependencies and run!
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/projects/environment-variables) for this, but a `.env` file is all that is necessary.
-
-To get things running locally, run `cp .env.example .env` to generate yourself an env file and then populate actual values for each of the variables defined there. When you're done, you can install the dependencies and run the local server.
+You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. To get things running locally, run `cp .env.example .env` to generate yourself an env file and then populate actual values for each of the variables defined there. When you're done, you can install the dependencies and run the local server.
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-Your app template should now be running on [localhost:3000](http://localhost:3000/).
+The chatbot should now be running on [localhost:3000](http://localhost:3000/).
 
 ## History
 
