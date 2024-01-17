@@ -35,6 +35,17 @@ To run this project locally, start by cloning this repository onto your local ma
 ```bash
 git clone git@github.com:kkoppenhaver/stytch-ai-chatbot.git
 ```
+You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. To get things running locally, run `cp .env.example .env` to generate yourself an env file and then populate actual values for each of the variables defined there. 
+
+### Getting an OpenAI API Key
+At the moment, this app uses OpenAI models to provide the chat output requested by the user. This means you'll need an OpenAI API key to make these API calls. Create or log in to your OpenAI account and copy your API key down into your `.env` file.
+
+### Setting up Stytch
+To get Stytch up and running, sign up or log in to your Stytch account. Create a Stytch Consumer project via the Stytch Dashboard if you don't have one already. To do so, click on your existing project name in top left corner of the Dashboard, click Create a new project, and then select Consumer authentication.
+
+Copy your `project_id`, `secret`, and `public_token` from the Test environment tab in the API keys section of the Stytch Dashboard. You'll need to include these values in your `.env` file.
+
+Finally, navigate to the Frontend SDKs tab in the Stytch Dashboard and enable the authentication products that you're interested in adding to your application.
 
 ### Creating a KV Database Instance
 
@@ -44,7 +55,7 @@ Remember to update your environment variables (`KV_URL`, `KV_REST_API_URL`, `KV_
 
 ### Gerenate env file, install dependencies and run!
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js AI Chatbot. To get things running locally, run `cp .env.example .env` to generate yourself an env file and then populate actual values for each of the variables defined there. When you're done, you can install the dependencies and run the local server.
+When you have all the varialbles in the `.env` file populated, you can install the dependencies and run the local server.
 
 ```bash
 pnpm install
