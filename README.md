@@ -26,7 +26,7 @@
 
 ## Try the Hosted Version
 
-If you don't want to mess with configuring environment variables and setting up your own infrastructure, you can try the already-deployed and configured version currently live at: [https://aichatbot-nu.vercel.app/](https://aichatbot-nu.vercel.app/)
+If you don't want to mess with configuring environment variables and setting up your own infrastructure, you can try the already-deployed and configured version currently live at: [https://stytch-ai-chatbot.vercel.app/](https://stytch-ai-chatbot.vercel.app/)
 
 ## Running locally
 
